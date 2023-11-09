@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* Foundation
 ------------------------------------------------*/
 /* Function
@@ -52,14 +53,17 @@ ul {
   z-index: 500;
   transition: background-color 0.3s ease;
 }
+
 .l-header--bg {
   background-color: #21054D;
 }
+
 .l-header__link {
   display: block;
   margin-left: 0.25rem;
   width: 7.75rem;
 }
+
 .l-header__button {
   display: flex;
   flex-direction: column;
@@ -69,11 +73,13 @@ ul {
   width: 2.75rem;
   height: 2.75rem;
 }
+
 .l-header__button--cross {
   position: absolute;
   top: 0.75rem;
   right: 0.75rem;
 }
+
 .l-header__icon {
   display: block;
   width: 2.0625rem;
@@ -81,33 +87,41 @@ ul {
   border-radius: 0.0625rem;
   background-color: #FFF;
 }
+
 .l-header__icon--bar:not(:first-child) {
   margin-top: 0.3125rem;
 }
+
 .l-header__icon--cross {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 1.625rem;
 }
+
 .l-header__icon--cross:first-child {
   transform: translate(-50%, -50%) rotate(45deg);
 }
+
 .l-header__icon--cross:last-child {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
+
 .l-header__hamburgerMenu {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
+  height: 100dvh;
   background: linear-gradient(#642390 0%, #19074A 100%);
   z-index: 600;
 }
+
 .l-header__hamburgerMenu--hide {
   display: none;
 }
+
 .l-header__list {
   display: flex;
   flex-direction: column;
@@ -116,10 +130,13 @@ ul {
   padding-bottom: 0.125rem;
   width: 100%;
   height: 100vh;
+  height: 100dvh;
 }
+
 .l-header__listItem {
   text-align: center;
 }
+
 .l-header__listLink {
   color: #FFF;
   font-family: "Montserrat", "Hiragino Sans", "ヒラギノ角ゴシック", "Noto Sans JP", sans-serif;
@@ -127,6 +144,7 @@ ul {
   font-weight: 700;
   letter-spacing: 0.05em;
 }
+
 .l-header__topButton {
   box-sizing: border-box;
   position: fixed;
@@ -139,6 +157,7 @@ ul {
   border-radius: 50%;
   transition: opacity 0.3s ease;
 }
+
 .l-header__topButton--hide {
   opacity: 0;
   pointer-events: none;
@@ -156,16 +175,20 @@ ul {
     height: 4rem;
     transition: background-color 0.3s ease, padding 0.3s ease;
   }
+
   .l-header--pcScroll {
     padding: 1.625rem 1.625rem 0;
   }
+
   .l-header__link {
     margin-top: 0.0625rem;
     width: 10.0575rem;
   }
+
   .l-header__button {
     display: none;
   }
+
   .l-header__hamburgerMenu {
     position: relative;
     width: initial;
@@ -173,10 +196,11 @@ ul {
     background: none;
     z-index: 600;
   }
+
   .l-header__list {
     flex-direction: row;
     -moz-column-gap: 1.5rem;
-         column-gap: 1.5rem;
+    column-gap: 1.5rem;
     justify-content: center;
     align-items: center;
     margin-right: 0.1875rem;
@@ -184,13 +208,16 @@ ul {
     width: initial;
     height: initial;
   }
+
   .l-header__listItem {
     text-align: center;
   }
+
   .l-header__listLink {
     position: relative;
     font-size: 0.875rem;
   }
+
   .l-header__listLink::after {
     display: block;
     content: "";
@@ -204,14 +231,17 @@ ul {
     transform: scaleX(0);
     transition: transform 0.3s ease;
   }
+
   .l-header__listLink:hover::after {
     transform: scaleX(1);
   }
+
   .l-header__topButton {
     bottom: 2.8125rem;
     right: 2.8125rem;
   }
 }
+
 /* Main Visual
 ------------------------------------------------*/
 .l-mainVisual {
@@ -219,18 +249,22 @@ ul {
   padding: calc(50vh - 7.4375rem) 1.875rem 0;
   width: 100%;
   height: 100vh;
+  height: 100svh;
   background-image: url("/image/main_visual/main_visual_1_sp.webp");
   background-position: center;
   background-size: cover;
 }
+
 .l-mainVisual--small {
   padding-top: 6.0625rem;
   height: 11.875rem;
   background-image: url("/image/main_visual/main_visual_2_sp.webp");
 }
+
 .l-mainVisual__container--small {
   text-align: center;
 }
+
 .l-mainVisual__title {
   display: block;
   color: #FFF;
@@ -240,14 +274,17 @@ ul {
   letter-spacing: 0.05em;
   line-height: 1.1;
 }
+
 .l-mainVisual__title--small {
   margin: 0 auto;
   font-size: 1.875rem;
   line-height: 1;
 }
+
 .l-mainVisual__subTitleContainer {
   margin-top: 0.9375rem;
 }
+
 .l-mainVisual__subTitle {
   display: block;
   color: #FFF;
@@ -257,12 +294,14 @@ ul {
   letter-spacing: 0.1em;
   line-height: 1.8125;
 }
+
 .l-mainVisual__subTitle--small {
   margin: 0.5625rem auto 0;
   font-family: "Montserrat", "Hiragino Sans", "ヒラギノ角ゴシック", "Noto Sans JP", sans-serif;
   font-size: 0.8125rem;
   line-height: 1;
 }
+
 .l-mainVisual__button {
   display: flex;
   justify-content: center;
@@ -279,12 +318,14 @@ ul {
   border: 0.0625rem solid #FFF;
   border-radius: 3.125rem;
 }
+
 .l-mainVisual__button .bi-caret-right-fill {
   position: absolute;
   top: 50%;
   right: 1rem;
   transform: translateY(-50%);
 }
+
 .l-mainVisual__scroll {
   position: absolute;
   bottom: -1.75rem;
@@ -297,6 +338,7 @@ ul {
   transform-origin: top right;
   transform: rotate(90deg);
 }
+
 .l-mainVisual__scroll::after {
   content: "";
   display: inline-block;
@@ -315,22 +357,26 @@ ul {
     transform: scaleX(0);
     opacity: 1;
   }
+
   49% {
     transform-origin: left;
     transform: scaleX(1);
     opacity: 1;
   }
+
   50% {
     transform-origin: right;
     transform: scaleX(1);
     opacity: 1;
   }
+
   100% {
     transform-origin: right;
     transform: scaleX(0);
     opacity: 1;
   }
 }
+
 @media (min-width: 768px) {
   .l-main--bg {
     background-image: url("/image/recruit/recruit_bg.webp");
@@ -338,66 +384,82 @@ ul {
     background-position: 0 17.8125rem;
     background-repeat: repeat;
   }
+
   .l-mainVisual {
     padding: calc(50vh - 7.5rem) 1.875rem 0;
     background-image: url("/image/main_visual/main_visual_1_pc.webp");
   }
+
   .l-mainVisual--small {
     padding-top: 6.625rem;
     height: 15rem;
     background-image: url("/image/main_visual/main_visual_2_pc.webp");
   }
+
   .l-mainVisual__container--small {
     text-align: center;
   }
+
   .l-mainVisual__titleContainer {
     padding-left: 0.25rem;
     text-align: center;
   }
+
   .l-mainVisual__title {
     display: inline-block;
     width: initial;
     font-size: 4.5rem;
     line-height: 1.25;
   }
+
   .l-mainVisual__title:first-child {
     margin-right: 1.125rem;
   }
+
   .l-mainVisual__title--small {
     display: block;
     font-size: 2.25rem;
   }
+
   .l-mainVisual__title--small:first-child {
     margin-right: 0rem;
   }
+
   .l-mainVisual__subTitleContainer {
     margin-top: 0.5rem;
     padding-right: 0.1875rem;
     text-align: center;
   }
+
   .l-mainVisual__subTitle {
     display: inline-block;
     font-size: 1.5rem;
   }
+
   .l-mainVisual__subTitle:first-child {
     margin-right: -0.25rem;
   }
+
   .l-mainVisual__subTitle--small {
     display: block;
     margin: 0.25rem auto 0;
     font-size: 0.875rem;
   }
+
   .l-mainVisual__button {
     margin: 2.5625rem auto 0;
   }
+
   .l-mainVisual__scroll {
     bottom: -1.6875rem;
     right: 2rem;
   }
+
   .l-mainVisual__scroll::after {
     width: 4.9375rem;
   }
 }
+
 /* Bar
 ------------------------------------------------*/
 .l-bar {
@@ -406,15 +468,18 @@ ul {
   height: 1.5625rem;
   background-color: #F7F7F7;
 }
+
 .l-bar__list {
   display: flex;
   align-items: center;
   -moz-column-gap: 0.375rem;
-       column-gap: 0.375rem;
+  column-gap: 0.375rem;
   width: 100%;
   height: 100%;
 }
-.l-bar__listItem, .l-bar__listLink {
+
+.l-bar__listItem,
+.l-bar__listLink {
   flex-shrink: 0;
   max-width: 12.5rem;
   font-family: "Montserrat", "Hiragino Sans", "ヒラギノ角ゴシック", "Noto Sans JP", sans-serif;
@@ -425,9 +490,11 @@ ul {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .l-bar__listItem {
   color: var(--text-color, #333);
 }
+
 .l-bar__listItem:not(:first-child)::before {
   content: ">";
   margin-right: 0.5rem;
@@ -437,6 +504,7 @@ ul {
   font-weight: inherit;
   letter-spacing: inherit;
 }
+
 .l-bar__listLink {
   color: var(--main-color, #391E88);
 }
@@ -446,20 +514,25 @@ ul {
     padding: 0 1.25rem;
     height: 2.8125rem;
   }
+
   .l-bar__list {
     -moz-column-gap: 0.4375rem;
-         column-gap: 0.4375rem;
+    column-gap: 0.4375rem;
     margin: 0 auto;
     max-width: 69.375rem;
   }
-  .l-bar__listItem, .l-bar__listLink {
+
+  .l-bar__listItem,
+  .l-bar__listLink {
     max-width: initial;
     font-size: 0.75rem;
   }
+
   .l-bar__listItem:not(:first-child)::before {
     margin-right: 0.5rem;
   }
 }
+
 /* Contact
 ------------------------------------------------*/
 .l-contact {
@@ -467,6 +540,7 @@ ul {
   padding-bottom: 3.75rem;
   background-color: #F7F7F7;
 }
+
 .l-contact__titleContainer {
   margin-bottom: 1.5625rem;
   text-align: center;
@@ -477,35 +551,42 @@ ul {
     padding-top: 5.25rem;
     padding-bottom: 5rem;
   }
+
   .l-contact__titleContainer {
     margin-bottom: 1.9375rem;
   }
+
   .l-contact__br {
     display: none;
   }
 }
+
 .l-footer {
   padding: 3.5625rem 1.9375rem 0;
   width: 100%;
   height: 13.3125rem;
   background-color: #120E19;
 }
+
 .l-footer__nav {
   margin-bottom: 2.0625rem;
 }
+
 .l-footer__list {
   display: flex;
   -moz-column-gap: 1.3125rem;
-       column-gap: 1.3125rem;
+  column-gap: 1.3125rem;
   row-gap: 1.125rem;
   flex-wrap: wrap;
 }
+
 .l-footer__listLink {
   color: #FFF;
   font-family: "Montserrat", "Hiragino Sans", "ヒラギノ角ゴシック", "Noto Sans JP", sans-serif;
   font-size: 0.75rem;
   font-weight: 700;
 }
+
 .l-footer__copyright {
   display: block;
   color: #A798B7;
@@ -521,21 +602,26 @@ ul {
     padding: 3.6875rem 1.9375rem 0;
     height: 10.8125rem;
   }
+
   .l-footer__nav {
     margin-bottom: 1.625rem;
   }
+
   .l-footer__list {
     justify-content: center;
     -moz-column-gap: 1.25rem;
-         column-gap: 1.25rem;
+    column-gap: 1.25rem;
   }
+
   .l-footer__listItem:first-child {
     display: none;
   }
+
   .l-footer__listLink {
     font-size: 0.875rem;
   }
 }
+
 /* Component
 ------------------------------------------------*/
 .c-sectionTitle {
@@ -561,6 +647,7 @@ ul {
   font-weight: 400;
   letter-spacing: 0.1em;
 }
+
 .c-newsDate--small {
   font-size: 0.8125rem;
   letter-spacing: 0.018em;
@@ -580,6 +667,7 @@ ul {
   background-color: var(--gray-color, #E8E8E8);
   border-radius: 3.125rem;
 }
+
 .c-newsCategory--big {
   height: 1.4375rem;
 }
@@ -604,6 +692,7 @@ ul {
   letter-spacing: 0.05em;
   white-space: nowrap;
 }
+
 .c-companyCatch--low {
   line-height: 1.28125;
 }
@@ -611,6 +700,7 @@ ul {
 .c-companyUnderline {
   position: relative;
 }
+
 .c-companyUnderline::after {
   content: "";
   display: block;
@@ -623,14 +713,17 @@ ul {
   background-color: #F5F534;
   z-index: -1;
 }
+
 .c-companyUnderline--short::after {
   width: 15rem;
 }
+
 .c-companyUnderline--page::after {
   bottom: -0.0625rem;
   left: 50%;
   width: 16.625rem;
 }
+
 .c-companyUnderline--pageShort::after {
   bottom: -0.0625rem;
   left: 50%;
@@ -655,6 +748,7 @@ ul {
   line-height: 1.7857142857;
   letter-spacing: 0.05em;
 }
+
 .c-description--low {
   line-height: 1.6428571429;
 }
@@ -672,51 +766,65 @@ ul {
   .c-sectionTitle {
     font-size: 2.25rem;
   }
+
   .c-sectionTitle--contactPc {
     font-size: 2.125rem;
     letter-spacing: 0.018em;
   }
+
   .c-sectionTitle--letterSpacing20 {
     letter-spacing: 0.02em;
   }
+
   .c-sectionSubTitle {
     font-weight: 600;
   }
+
   .c-newsDate--small {
     letter-spacing: 0;
   }
+
   .c-newsCategory {
     height: 1.375rem;
     font-size: 0.75rem;
   }
+
   .c-newsCategory--big {
     height: 1.4375rem;
   }
+
   .c-description {
     font-size: 0.9375rem;
     line-height: 1.8;
   }
+
   .c-description--low {
     line-height: 1.6428571429;
   }
+
   .c-description--big {
     font-size: 1rem;
   }
+
   .c-companyCatch {
     display: inline-block;
     font-size: 2.5rem;
     line-height: 1;
   }
+
   .c-companyCatch:first-child {
     margin-right: -0.1875rem;
   }
+
   .c-companyCatch--low {
     line-height: 1;
   }
+
   .c-companyUnderline::after {
     content: "";
     display: none;
   }
+
   .c-companyUnderline:first-child::after {
     content: "";
     display: block;
@@ -729,30 +837,37 @@ ul {
     background-color: #F5F534;
     z-index: -1;
   }
+
   .c-companyUnderline--short::after {
     width: 15rem;
   }
+
   .c-companyUnderline--page::after {
     bottom: -0.0625rem;
     left: 10.25rem;
     width: 16.625rem;
   }
+
   .c-companyUnderline--pageShort::after {
     bottom: -0.0625rem;
     left: 10.25rem;
     width: 15rem;
   }
+
   .c-serviceTitle--big {
     text-align: left;
     font-size: 1.5rem;
   }
+
   .c-companyTitle {
     font-size: 2rem;
   }
+
   .c-recruitTitle {
     font-size: 2rem;
   }
 }
+
 .c-buttonPurple {
   display: flex;
   justify-content: center;
@@ -769,6 +884,7 @@ ul {
   background: var(--button-background, linear-gradient(90deg, #7633a4 0%, #250d65 100%));
   border-radius: 3.125rem;
 }
+
 .c-buttonPurple .bi-caret-right-fill {
   position: absolute;
   top: 50%;
@@ -782,11 +898,13 @@ ul {
     height: 3.1875rem;
   }
 }
+
 /* Project
 ------------------------------------------------*/
 .p-newsContent {
   padding: 2.5rem 1.25rem 5.0625rem;
 }
+
 .p-newsContent__title {
   color: var(--text-color, #333);
   font-family: "Montserrat", "Hiragino Sans", "ヒラギノ角ゴシック", "Noto Sans JP", sans-serif;
@@ -795,21 +913,25 @@ ul {
   line-height: 1.5454545455;
   letter-spacing: 0.05em;
 }
+
 .p-newsContent__information {
   display: flex;
   align-items: center;
   -moz-column-gap: 1.25rem;
-       column-gap: 1.25rem;
+  column-gap: 1.25rem;
   margin-top: 2.75rem;
   padding-left: 0.3125rem;
 }
+
 .p-newsContent__img {
   margin-top: 0.875rem;
   margin-bottom: 1.6875rem;
 }
+
 .p-newsContent__headlineContainer {
   margin-top: 1.9375rem;
 }
+
 .p-newsContent__headline {
   position: relative;
   margin-bottom: 1.1875rem;
@@ -820,6 +942,7 @@ ul {
   font-weight: 600;
   letter-spacing: 0.018em;
 }
+
 .p-newsContent__headline::before {
   content: "";
   display: inline-block;
@@ -831,9 +954,11 @@ ul {
   background-color: var(--main-color, #391E88);
   border-radius: 0.1875rem;
 }
+
 .p-newsContent__subheadContainer {
   margin-top: 1.9375rem;
 }
+
 .p-newsContent__subhead {
   margin-bottom: 1.1875rem;
   color: var(--text-color, #333);
@@ -842,6 +967,7 @@ ul {
   font-weight: 600;
   letter-spacing: 0.018em;
 }
+
 .p-newsContent__description {
   color: var(--text-color, #333);
   font-family: "Hiragino Sans", "ヒラギノ角ゴシック", "Noto Sans JP", sans-serif;
@@ -850,6 +976,7 @@ ul {
   line-height: 1.7142857143;
   letter-spacing: 0.05em;
 }
+
 .p-newsContent__snsList {
   display: flex;
   align-items: flex-end;
@@ -857,15 +984,19 @@ ul {
   row-gap: 0.3125rem;
   margin-top: 2.5rem;
 }
-.p-newsContent__snsItem:nth-child(3), .p-newsContent__snsItem:nth-child(4) {
+
+.p-newsContent__snsItem:nth-child(3),
+.p-newsContent__snsItem:nth-child(4) {
   margin-left: 0.625rem;
 }
+
 .p-newsContent__next {
   margin-top: 2.53125rem;
   color: var(--main-color, #391E88);
   font-family: "Hiragino Sans", "ヒラギノ角ゴシック", "Noto Sans JP", sans-serif;
   font-weight: 300;
 }
+
 .p-newsContent__nextTop {
   display: flex;
   padding-top: 0.875rem;
@@ -873,6 +1004,7 @@ ul {
   height: 7.0625rem;
   border-top: 0.0625rem solid #B8AED5;
 }
+
 .p-newsContent__nextLeft {
   display: flex;
   align-items: center;
@@ -883,6 +1015,7 @@ ul {
   padding-right: 0.625rem;
   border-right: 0.0625rem solid #B8AED5;
 }
+
 .p-newsContent__nextRight {
   display: flex;
   align-items: center;
@@ -892,6 +1025,7 @@ ul {
   padding-left: 0.625rem;
   padding-right: 1.3125rem;
 }
+
 .p-newsContent__nextLink {
   display: inline-block;
   padding-top: 0.5rem;
@@ -903,11 +1037,13 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.05em;
 }
+
 .p-newsContent__nextBottom {
   padding-top: 1.0625rem;
   text-align: center;
   border-top: 0.0625rem solid #B8AED5;
 }
+
 .p-newsContent__toNewsLink {
   display: inline-block;
   color: var(--main-color, #391E88);
@@ -921,77 +1057,94 @@ ul {
   .p-newsContent {
     padding: 4.375rem 1.25rem 6.9375rem;
   }
+
   .p-newsContent__container {
     margin: 0 auto;
     max-width: 46.875rem;
   }
+
   .p-newsContent__title {
     font-size: 2rem;
     line-height: 1.4375;
   }
+
   .p-newsContent__information {
     -moz-column-gap: 0.625rem;
-         column-gap: 0.625rem;
+    column-gap: 0.625rem;
     margin-top: 0.4375rem;
     padding-left: 0rem;
   }
+
   .p-newsContent__img {
     margin-top: 1.625rem;
     margin-bottom: 1.6875rem;
   }
+
   .p-newsContent__headlineContainer {
     margin-top: 3.625rem;
   }
+
   .p-newsContent__headline {
     margin-bottom: 1.625rem;
     padding-left: 1.125rem;
     font-size: 1.5rem;
     letter-spacing: 0.05em;
   }
+
   .p-newsContent__headline::before {
     top: -0.5625rem;
     left: 0rem;
     height: 2.75rem;
   }
+
   .p-newsContent__subheadContainer {
     margin-top: 1.875rem;
   }
+
   .p-newsContent__subhead {
     margin-bottom: 1.1875rem;
     font-size: 1.125rem;
     letter-spacing: 0.05em;
   }
+
   .p-newsContent__description {
     font-size: 0.9375rem;
     line-height: 1.6666666667;
   }
+
   .p-newsContent__snsList {
     margin-top: 1.9375rem;
   }
+
   .p-newsContent__next {
     margin: 2.5rem auto 0;
     max-width: 45.625rem;
   }
+
   .p-newsContent__nextTop {
     height: 5.875rem;
   }
+
   .p-newsContent__nextLeft {
     height: 4.375rem;
     padding-left: 2.25rem;
     padding-right: 2rem;
     border-right: 0.0625rem solid #B8AED5;
   }
+
   .p-newsContent__nextRight {
     height: 4.375rem;
     padding-left: 2rem;
     padding-right: 2.25rem;
   }
+
   .p-newsContent__nextLink {
     padding-top: 0rem;
     font-size: 0.875rem;
     line-height: 1.5714285714;
   }
 }
+
 /* Utility
 ------------------------------------------------*/
 .u-sectionTitleMargin {
@@ -1026,16 +1179,22 @@ ul {
   .u-sectionTitleMargin {
     margin-top: 0.5rem;
   }
+
   .u-newsListMargin {
     margin-top: 0rem;
   }
+
   .u-buttonMargin--CompanyPc {
     margin-top: 1.5625rem;
   }
+
   .u-newsContentDescriptionMargin {
     margin-top: 1.25rem;
   }
+
   .u-recruitButtonMargin {
     margin-top: 3.1875rem;
   }
-}/*# sourceMappingURL=news_content.css.map */
+}
+
+/*# sourceMappingURL=news_content.css.map */
