@@ -250,7 +250,7 @@ ul {
   width: 100%;
   height: 100vh;
   height: 100svh;
-  background-image: url("/image/main_visual/main_visual_1_sp.webp");
+  background-image: url("https://github.com/blahiple/cordingAdvanced/image/main_visual/main_visual_1_sp.webp");
   background-position: center;
   background-size: cover;
 }
@@ -258,7 +258,7 @@ ul {
 .l-mainVisual--small {
   padding-top: 6.0625rem;
   height: 11.875rem;
-  background-image: url("/image/main_visual/main_visual_2_sp.webp");
+  background-image: url("https://github.com/blahiple/cordingAdvanced/image/main_visual/main_visual_2_sp.webp");
 }
 
 .l-mainVisual__container--small {
@@ -379,7 +379,7 @@ ul {
 
 @media (min-width: 768px) {
   .l-main--bg {
-    background-image: url("/image/recruit/recruit_bg.webp");
+    background-image: url("https://github.com/blahiple/cordingAdvanced/image/recruit/recruit_bg.webp");
     background-size: 25rem 25rem;
     background-position: 0 17.8125rem;
     background-repeat: repeat;
@@ -387,13 +387,13 @@ ul {
 
   .l-mainVisual {
     padding: calc(50vh - 7.5rem) 1.875rem 0;
-    background-image: url("/image/main_visual/main_visual_1_pc.webp");
+    background-image: url("https://github.com/blahiple/cordingAdvanced/image/main_visual/main_visual_1_pc.webp");
   }
 
   .l-mainVisual--small {
     padding-top: 6.625rem;
     height: 15rem;
-    background-image: url("/image/main_visual/main_visual_2_pc.webp");
+    background-image: url("https://github.com/blahiple/cordingAdvanced/image/main_visual/main_visual_2_pc.webp");
   }
 
   .l-mainVisual__container--small {
