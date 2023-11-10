@@ -1048,22 +1048,22 @@ ul {
 
   .c-companyImg:nth-child(1) {
     left: calc(50% - 40.625rem);
-    background-image: url("/image/company/bg_img_big_01.webp");
+    background-image: url("https://blahiple.github.io/cordingAdvanced/image/company/bg_img_big_01.webp");
   }
 
   .c-companyImg:nth-child(2) {
     right: calc(50% - 40.625rem);
-    background-image: url("/image/company/bg_img_big_02.webp");
+    background-image: url("https://blahiple.github.io/cordingAdvanced/image/company/bg_img_big_02.webp");
   }
 
   .c-companyImg:nth-child(3) {
     left: calc(50% - 31.5rem);
-    background-image: url("/image/company/bg_img_small_01.webp");
+    background-image: url("https://blahiple.github.io/cordingAdvanced/image/company/bg_img_small_01.webp");
   }
 
   .c-companyImg:nth-child(4) {
     right: calc(50% - 30.25rem);
-    background-image: url("/image/company/bg_img_small_02.webp");
+    background-image: url("https://blahiple.github.io/cordingAdvanced/image/company/bg_img_small_02.webp");
   }
 }
 
